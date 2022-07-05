@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Testing Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+      <!-- <class name="RestClient.getRequestTests"/>
+      <class name="RestClient.XMLSchemaValidation"/> -->
+    <!--   <class name="RestClient.VideoGameAPITests"/> -->
+      <!-- <class name="RestClient.GetRequest"/>
+      <class name="RestClient.JSONSchemaValidation"/>
+      <class name="RestClient.SoapXMLRequest"/>
+      <class name="RestClient.PostReqTests"/> -->
+    <!--   <class name ="demo.serializeTest"/> -->
+      <class name ="RestAssured.PostHttpMethodExample"/>
+      <!--  <class name ="RestAssured.GetHttpMethodExample"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
